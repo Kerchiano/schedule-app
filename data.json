@@ -1,0 +1,307 @@
+{
+  "categories": [
+    {
+      "name": "Овощи",
+      "subcategories": [
+        {
+          "name": "Корнеплоды",
+          "products": [
+            {
+              "name": "Морковь",
+              "image": "https://varus.ua/img/product/420/420/147011",
+              "prices": {
+                "Varus": 25.0,
+                "Сильпо": 27.5,
+                "АТБ": 23.9
+              }
+            },
+            {
+              "name": "Свекла",
+              "image": "https://varus.ua/img/product/420/420/2507408",
+              "prices": {
+                "Varus": 22.0,
+                "Сильпо": 24.0,
+                "АТБ": 21.0
+              }
+            },
+            {
+              "name": "Картофель",
+              "image": "https://varus.ua/img/product/420/420/2552225",
+              "prices": {
+                "Varus": 18.5,
+                "Сильпо": 20.0,
+                "АТБ": 17.8
+              }
+            }
+          ]
+        },
+        {
+          "name": "Зелень",
+          "products": [
+            {
+              "name": "Петрушка",
+              "image": "https://varus.ua/img/product/420/420/2623533",
+              "prices": {
+                "Varus": 10.0,
+                "Сильпо": 12.0,
+                "АТБ": 9.5
+              }
+            },
+            {
+              "name": "Укроп",
+              "image": "https://varus.ua/img/product/420/420/2552952",
+              "prices": {
+                "Varus": 11.0,
+                "Сильпо": 13.0,
+                "АТБ": 10.5
+              }
+            },
+            {
+              "name": "Лук зеленый",
+              "image": "https://varus.ua/img/product/420/420/2539835",
+              "prices": {
+                "Varus": 9.5,
+                "Сильпо": 11.0,
+                "АТБ": 8.9
+              }
+            }
+          ]
+        },
+        {
+          "name": "Томаты",
+          "products": [
+            {
+              "name": "Помидор черри",
+              "image": "https://varus.ua/img/product/420/420/2609730",
+              "prices": {
+                "Varus": 45.0,
+                "Сильпо": 47.0,
+                "АТБ": 42.0
+              }
+            },
+            {
+              "name": "Помидор Кумато",
+              "image": "https://varus.ua/img/product/420/420/2538806",
+              "prices": {
+                "Varus": 50.0,
+                "Сильпо": 52.0,
+                "АТБ": 48.0
+              }
+            },
+            {
+              "name": "Томаты сливовидные",
+              "image": "https://varus.ua/img/product/420/420/2512608",
+              "prices": {
+                "Varus": 43.0,
+                "Сильпо": 45.0,
+                "АТБ": 40.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Молочные продукты",
+      "subcategories": [
+        {
+          "name": "Молоко",
+          "products": [
+            {
+              "name": "Молоко 1%",
+              "image": "https://varus.ua/img/product/420/420/2626883",
+              "prices": {
+                "Varus": 28.0,
+                "Сильпо": 30.0,
+                "АТБ": 26.5
+              }
+            },
+            {
+              "name": "Молоко 2.5%",
+              "image": "https://varus.ua/img/product/420/420/197061",
+              "prices": {
+                "Varus": 30.0,
+                "Сильпо": 32.5,
+                "АТБ": 29.0
+              }
+            },
+            {
+              "name": "Молоко безлактозное",
+              "image": "https://varus.ua/img/product/420/420/2649201",
+              "prices": {
+                "Varus": 35.0,
+                "Сильпо": 37.5,
+                "АТБ": 34.0
+              }
+            }
+          ]
+        },
+        {
+          "name": "Сыр",
+          "products": [
+            {
+              "name": "Сыр моцарелла",
+              "image": "https://varus.ua/img/product/420/420/2646220",
+              "prices": {
+                "Varus": 90.0,
+                "Сильпо": 95.0,
+                "АТБ": 88.0
+              }
+            },
+            {
+              "name": "Сыр твердый",
+              "image": "https://varus.ua/img/product/420/420/2605410",
+              "prices": {
+                "Varus": 110.0,
+                "Сильпо": 115.0,
+                "АТБ": 105.0
+              }
+            },
+            {
+              "name": "Сыр плавленый",
+              "image": "https://varus.ua/img/product/420/420/2634047",
+              "prices": {
+                "Varus": 40.0,
+                "Сильпо": 42.0,
+                "АТБ": 38.5
+              }
+            }
+          ]
+        },
+        {
+          "name": "Йогурты",
+          "products": [
+            {
+              "name": "Йогурт клубничный",
+              "image": "https://varus.ua/img/product/420/420/2595611",
+              "prices": {
+                "Varus": 18.0,
+                "Сильпо": 20.0,
+                "АТБ": 17.0
+              }
+            },
+            {
+              "name": "Йогурт персиковый",
+              "image": "https://varus.ua/img/product/420/420/2538873",
+              "prices": {
+                "Varus": 18.5,
+                "Сильпо": 20.5,
+                "АТБ": 17.5
+              }
+            },
+            {
+              "name": "Йогурт натуральный",
+              "image": "https://varus.ua/img/product/420/420/2586307",
+              "prices": {
+                "Varus": 16.0,
+                "Сильпо": 18.0,
+                "АТБ": 15.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Бакалея",
+      "subcategories": [
+        {
+          "name": "Крупы",
+          "products": [
+            {
+              "name": "Гречка",
+              "image": "https://varus.ua/img/product/420/420/2498863",
+              "prices": {
+                "Varus": 45.0,
+                "Сильпо": 48.0,
+                "АТБ": 43.0
+              }
+            },
+            {
+              "name": "Рис",
+              "image": "https://varus.ua/img/product/420/420/2566423",
+              "prices": {
+                "Varus": 40.0,
+                "Сильпо": 42.5,
+                "АТБ": 39.0
+              }
+            },
+            {
+              "name": "Пшено",
+              "image": "https://varus.ua/img/product/420/420/2498881",
+              "prices": {
+                "Varus": 35.0,
+                "Сильпо": 36.5,
+                "АТБ": 33.0
+              }
+            }
+          ]
+        },
+        {
+          "name": "Макароны",
+          "products": [
+            {
+              "name": "Спагетти",
+              "image": "https://varus.ua/img/product/420/420/2634363",
+              "prices": {
+                "Varus": 28.0,
+                "Сильпо": 30.0,
+                "АТБ": 26.0
+              }
+            },
+            {
+              "name": "Рожки",
+              "image": "https://varus.ua/img/product/420/420/2604148",
+              "prices": {
+                "Varus": 25.0,
+                "Сильпо": 27.0,
+                "АТБ": 24.0
+              }
+            },
+            {
+              "name": "Перья",
+              "image": "https://varus.ua/img/product/420/420/2634364",
+              "prices": {
+                "Varus": 26.0,
+                "Сильпо": 28.0,
+                "АТБ": 25.0
+              }
+            }
+          ]
+        },
+        {
+          "name": "Мука",
+          "products": [
+            {
+              "name": "Мука пшеничная",
+              "image": "https://varus.ua/img/product/420/420/340029",
+              "prices": {
+                "Varus": 20.0,
+                "Сильпо": 22.0,
+                "АТБ": 19.0
+              }
+            },
+            {
+              "name": "Мука ржаная",
+              "image": "https://varus.ua/img/product/420/420/2584540",
+              "prices": {
+                "Varus": 23.0,
+                "Сильпо": 24.5,
+                "АТБ": 22.0
+              }
+            },
+            {
+              "name": "Мука цельнозерновая",
+              "image": "https://varus.ua/img/product/420/420/2635319",
+              "prices": {
+                "Varus": 25.0,
+                "Сильпо": 26.5,
+                "АТБ": 24.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
