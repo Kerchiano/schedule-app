@@ -49,7 +49,7 @@ export default function SubCategory() {
   if (!selectedCategorySlug) {
     return (
       <div className="mt-[20px]">
-        <h2 className="text-xl font-bold mb-4">Выберите категорию:</h2>
+        <h2 className="text-xl font-bold mb-4">Выберите категорию чтобы потом выбрать подкатегорию:</h2>
         <ul className="space-y-2">
           {categories.map((cat) => (
             <li key={cat.slug}>

@@ -6,13 +6,13 @@ function SchedulePage() {
       <aside className="w-full max-md:w-2/5 md:w-1/4 bg-green-100 p-8 max-[479px]:px-2 space-y-4 text-lg font-medium rounded-[8px]">
         <ul className="space-y-2">
           <li>
-            <Link to="category">Категория</Link>
+            <Link to="category" className="hover:underline text-green-700">Категория</Link>
           </li>
           <li>
-            <Link to="subcategory">Подкатегория</Link>
+            <Link to="subcategory" className="hover:underline text-green-700">Подкатегория</Link>
           </li>
           <li>
-            <Link to="product">Продукт</Link>
+            <Link to="product" className="hover:underline text-green-700">Продукт</Link>
           </li>
         </ul>
       </aside>

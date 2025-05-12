@@ -2,6 +2,7 @@ import type { Category } from "@/types/products";
 import { useFilters } from "@/contexts/FiltersContext";
 import SubcategoryCheckbox from "@/pages/products/SubCategoryCheckbox";
 import { useState } from "react";
+import data from "data.json";
 
 interface CategoryProps {
   category: Category;
@@ -19,12 +20,10 @@ const CategoryCheckbox = ({ category }: CategoryProps) => {
 
   const scheduleSettings = getScheduleFromLocalStorage();
 
-  const subcategoryData = getFilteredSubcategories(
-    category.slug,
-    selectedDay,
-    scheduleSettings
-  );
-
+  const subcategoryData = selectedDay
+    ? getFilteredSubcategories(category.slug, selectedDay, scheduleSettings)
+    : data.categories.find((cat) => cat.slug === category.slug)
+        ?.subcategories || [];
   return (
     <li className="mb-4">
       <div className="flex items-center justify-between cursor-pointer">
