@@ -1,11 +1,8 @@
+import { useFilters } from "@/contexts/FiltersContext";
 import ProductsList from "@/pages/products/ProductList";
-import type { Category } from "@/types/products";
 
-interface ProductsSectionProps {
-  categoriesData: Category[];
-}
-
-const ProductsSection = ({ categoriesData }: ProductsSectionProps) => {
+const ProductsSection = () => {
+  const { filteredCategories: categoriesData } = useFilters();
   return (
     <div className="w-full lg:w-4/5 bg-white">
       <div className="w-full px-0 md:px-4">

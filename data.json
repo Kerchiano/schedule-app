@@ -2,12 +2,15 @@
   "categories": [
     {
       "name": "Овощи",
+      "slug": "ovoshchi",
       "subcategories": [
         {
           "name": "Корнеплоды",
+          "slug": "korneplody",
           "products": [
             {
               "name": "Морковь",
+              "slug": "morkov",
               "image": "https://varus.ua/img/product/420/420/147011",
               "prices": {
                 "Varus": 25.0,
@@ -17,6 +20,7 @@
             },
             {
               "name": "Свекла",
+              "slug": "svekla",
               "image": "https://varus.ua/img/product/420/420/2507408",
               "prices": {
                 "Varus": 22.0,
@@ -26,6 +30,7 @@
             },
             {
               "name": "Картофель",
+              "slug": "kartofel",
               "image": "https://varus.ua/img/product/420/420/2552225",
               "prices": {
                 "Varus": 18.5,
@@ -37,9 +42,11 @@
         },
         {
           "name": "Зелень",
+          "slug": "zelen",
           "products": [
             {
               "name": "Петрушка",
+              "slug": "petrushka",
               "image": "https://varus.ua/img/product/420/420/2623533",
               "prices": {
                 "Varus": 10.0,
@@ -49,6 +56,7 @@
             },
             {
               "name": "Укроп",
+              "slug": "ukrop",
               "image": "https://varus.ua/img/product/420/420/2552952",
               "prices": {
                 "Varus": 11.0,
@@ -58,6 +66,7 @@
             },
             {
               "name": "Лук зеленый",
+              "slug": "luk-zeleniy",
               "image": "https://varus.ua/img/product/420/420/2539835",
               "prices": {
                 "Varus": 9.5,
@@ -69,9 +78,11 @@
         },
         {
           "name": "Томаты",
+          "slug": "tomati",
           "products": [
             {
               "name": "Помидор черри",
+              "slug": "pomidor-cheri",
               "image": "https://varus.ua/img/product/420/420/2609730",
               "prices": {
                 "Varus": 45.0,
@@ -81,6 +92,7 @@
             },
             {
               "name": "Помидор Кумато",
+              "slug": "pomidor-kumato",
               "image": "https://varus.ua/img/product/420/420/2538806",
               "prices": {
                 "Varus": 50.0,
@@ -90,6 +102,7 @@
             },
             {
               "name": "Томаты сливовидные",
+              "slug": "tomati-sliva",
               "image": "https://varus.ua/img/product/420/420/2512608",
               "prices": {
                 "Varus": 43.0,
@@ -103,12 +116,15 @@
     },
     {
       "name": "Молочные продукты",
+      "slug": "molochnie-producti",
       "subcategories": [
         {
           "name": "Молоко",
+          "slug": "moloko",
           "products": [
             {
               "name": "Молоко 1%",
+              "slug": "moloko-1",
               "image": "https://varus.ua/img/product/420/420/2626883",
               "prices": {
                 "Varus": 28.0,
@@ -118,6 +134,7 @@
             },
             {
               "name": "Молоко 2.5%",
+              "slug": "moloko-2.5",
               "image": "https://varus.ua/img/product/420/420/197061",
               "prices": {
                 "Varus": 30.0,
@@ -127,6 +144,7 @@
             },
             {
               "name": "Молоко безлактозное",
+              "slug": "moloko-bez-laktozi",
               "image": "https://varus.ua/img/product/420/420/2649201",
               "prices": {
                 "Varus": 35.0,
@@ -138,9 +156,11 @@
         },
         {
           "name": "Сыр",
+          "slug": "syr",
           "products": [
             {
               "name": "Сыр моцарелла",
+              "slug": "mocarela",
               "image": "https://varus.ua/img/product/420/420/2646220",
               "prices": {
                 "Varus": 90.0,
@@ -150,6 +170,7 @@
             },
             {
               "name": "Сыр твердый",
+              "slug": "tverdiy",
               "image": "https://varus.ua/img/product/420/420/2605410",
               "prices": {
                 "Varus": 110.0,
@@ -159,6 +180,7 @@
             },
             {
               "name": "Сыр плавленый",
+              "slug": "plavleniy",
               "image": "https://varus.ua/img/product/420/420/2634047",
               "prices": {
                 "Varus": 40.0,
@@ -170,9 +192,11 @@
         },
         {
           "name": "Йогурты",
+          "slug": "yoghurti",
           "products": [
             {
               "name": "Йогурт клубничный",
+              "slug": "klubnichniy",
               "image": "https://varus.ua/img/product/420/420/2595611",
               "prices": {
                 "Varus": 18.0,
@@ -182,6 +206,7 @@
             },
             {
               "name": "Йогурт персиковый",
+              "slug": "persikoviy",
               "image": "https://varus.ua/img/product/420/420/2538873",
               "prices": {
                 "Varus": 18.5,
@@ -191,6 +216,7 @@
             },
             {
               "name": "Йогурт натуральный",
+              "slug": "naturalniy",
               "image": "https://varus.ua/img/product/420/420/2586307",
               "prices": {
                 "Varus": 16.0,
@@ -204,12 +230,15 @@
     },
     {
       "name": "Бакалея",
+      "slug": "bakaleya",
       "subcategories": [
         {
           "name": "Крупы",
+          "slug": "krupi",
           "products": [
             {
               "name": "Гречка",
+              "slug": "grechka",
               "image": "https://varus.ua/img/product/420/420/2498863",
               "prices": {
                 "Varus": 45.0,
@@ -219,6 +248,7 @@
             },
             {
               "name": "Рис",
+              "slug": "ris",
               "image": "https://varus.ua/img/product/420/420/2566423",
               "prices": {
                 "Varus": 40.0,
@@ -228,6 +258,7 @@
             },
             {
               "name": "Пшено",
+              "slug": "psheno",
               "image": "https://varus.ua/img/product/420/420/2498881",
               "prices": {
                 "Varus": 35.0,
@@ -239,9 +270,11 @@
         },
         {
           "name": "Макароны",
+          "slug": "makaroni",
           "products": [
             {
               "name": "Спагетти",
+              "slug": "spaghetti",
               "image": "https://varus.ua/img/product/420/420/2634363",
               "prices": {
                 "Varus": 28.0,
@@ -251,6 +284,7 @@
             },
             {
               "name": "Рожки",
+              "slug": "rozhki",
               "image": "https://varus.ua/img/product/420/420/2604148",
               "prices": {
                 "Varus": 25.0,
@@ -260,6 +294,7 @@
             },
             {
               "name": "Перья",
+              "slug": "perya",
               "image": "https://varus.ua/img/product/420/420/2634364",
               "prices": {
                 "Varus": 26.0,
@@ -271,9 +306,11 @@
         },
         {
           "name": "Мука",
+          "slug": "muka",
           "products": [
             {
               "name": "Мука пшеничная",
+              "slug": "pshenichnaya",
               "image": "https://varus.ua/img/product/420/420/340029",
               "prices": {
                 "Varus": 20.0,
@@ -283,6 +320,7 @@
             },
             {
               "name": "Мука ржаная",
+              "slug": "rzhanaya",
               "image": "https://varus.ua/img/product/420/420/2584540",
               "prices": {
                 "Varus": 23.0,
@@ -292,6 +330,7 @@
             },
             {
               "name": "Мука цельнозерновая",
+              "slug": "celnozernovaya",
               "image": "https://varus.ua/img/product/420/420/2635319",
               "prices": {
                 "Varus": 25.0,

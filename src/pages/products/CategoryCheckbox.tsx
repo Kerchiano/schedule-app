@@ -8,8 +8,22 @@ interface CategoryProps {
 }
 
 const CategoryCheckbox = ({ category }: CategoryProps) => {
-  const { selectedCategories, toggleCategory } = useFilters();
+  const {
+    selectedCategories,
+    toggleCategory,
+    getFilteredSubcategories,
+    getScheduleFromLocalStorage,
+    selectedDay,
+  } = useFilters();
   const [isExpanded, setIsExpanded] = useState(false);
+
+  const scheduleSettings = getScheduleFromLocalStorage();
+
+  const subcategoryData = getFilteredSubcategories(
+    category.slug,
+    selectedDay,
+    scheduleSettings
+  );
 
   return (
     <li className="mb-4">
@@ -26,7 +40,9 @@ const CategoryCheckbox = ({ category }: CategoryProps) => {
         {category.subcategories.length > 0 && (
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className={`transition-transform cursor-pointer ${isExpanded ? "rotate-180" : ""}`}
+            className={`transition-transform cursor-pointer ${
+              isExpanded ? "rotate-180" : ""
+            }`}
           >
             <svg
               className="w-4 h-4 text-gray-500"
@@ -47,7 +63,7 @@ const CategoryCheckbox = ({ category }: CategoryProps) => {
 
       {isExpanded && (
         <ul className="pl-6 mt-2">
-          {category.subcategories.map((subcategory, subIndex) => (
+          {subcategoryData.map((subcategory, subIndex) => (
             <SubcategoryCheckbox key={subIndex} subcategory={subcategory} />
           ))}
         </ul>

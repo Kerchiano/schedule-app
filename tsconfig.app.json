@@ -28,8 +28,5 @@
       "@/*": ["src/*"]
     }
   },
-  // "moduleResolution": "node",
-  // "module": "esnext",
-  // "importModuleSpecifier": "non-relative",
   "include": ["src"]
 }

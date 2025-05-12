@@ -1,18 +1,22 @@
+import { useFilters } from "@/contexts/FiltersContext";
 import CategoryCheckbox from "@/pages/products/CategoryCheckbox";
+import DaysList from "@/pages/products/DaysList";
 import MarketplaceCheckbox from "@/pages/products/MarketplaceCheckbox";
-import type { Category } from "@/types/products";
 import { useState } from "react";
 
-interface FilterSideBarProps {
-  categoriesData: Category[];
-  allMarketplaces: string[];
-}
-
-const FilterSideBar = ({
-  categoriesData,
-  allMarketplaces,
-}: FilterSideBarProps) => {
+const FilterSideBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { filteredCategories: categoriesData } = useFilters();
+
+  const allMarketplaces = Array.from(
+    new Set(
+      categoriesData.flatMap((category) =>
+        category.subcategories.flatMap((subcategory) =>
+          subcategory.products.flatMap((product) => Object.keys(product.prices))
+        )
+      )
+    )
+  );
   return (
     <>
       <div className="hidden lg:block w-1/5 bg-gray-100 p-4 rounded-lg">
@@ -32,6 +36,7 @@ const FilterSideBar = ({
             </ul>
           </li>
         </ul>
+        <DaysList />
       </div>
       <div className="lg:hidden w-auto mb-4 relative">
         <div className="flex items-center bg-gray-100 w-[160px] rounded-lg">
@@ -76,6 +81,7 @@ const FilterSideBar = ({
                     />
                   ))}
                 </ul>
+                <DaysList />
               </li>
             </ul>
           </div>
