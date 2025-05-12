@@ -59,10 +59,13 @@ export const FiltersProvider = ({ children }: FiltersProviderProps) => {
     selectedDay: string,
     scheduleSettings: ScheduleSettings
   ): Subcategory[] => {
-    if (!selectedDay || !(categorySlug in scheduleSettings.categories)) {
+    if (
+      !selectedDay ||
+      !scheduleSettings.categories ||
+      !(categorySlug in scheduleSettings.categories)
+    ) {
       return [];
     }
-
     const categories = data.categories.filter(
       (cat) => cat.slug === categorySlug
     );
